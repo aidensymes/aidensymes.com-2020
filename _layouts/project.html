@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="light preload">
+
+    {% include header.html %}
+
+    <div class="project wrapper">
+
+      <div class="project__header col-12">
+        <img src="{{ page.header-image }}"/>
+      </div>
+
+      <div class="project__blurb rule col-8">
+        <h2>
+          {{ page.blurb }}
+        </h2>
+      </div>
+
+      <div class="project__desc rule col-4">
+        {{ content }}
+
+        {% if page.role[0] %}
+          <h3 class="project__desc__item">
+            Role
+          </h3>
+          {% for role in page.role %}
+            <h3 class="pill">
+              {{ role }}
+            </h3>
+          {% endfor %}
+        {% endif %}
+
+        {% if page.studio.name %}
+          <h3 class="project__desc__item">
+            Studio
+          </h3>
+          <a href="{{ page.studio.link }}" target="_blank">
+            <h3 class="pill hover">
+              {{ page.studio.name }}
+            </h3>
+          </a>
+        {% endif %}
+
+        {% if page.client.name %}
+          <h3 class="project__desc__item">
+            Client
+          </h3>
+          <a href="{{ page.client.link }}" target="_blank">
+            <h3 class="pill hover">
+              {{ page.client.name }}
+            </h3>
+          </a>
+        {% endif %}
+
+        {% if page.press[0].name %}
+          <h3 class="project__desc__item">
+            Press
+          </h3>
+          {% for item in page.press %}
+            <a href="{{ item.link }}" target="_blank">
+              <h3 class="pill hover">
+                {{ item.name }}
+              </h3>
+            </a>
+          {% endfor %}
+        {% endif %}
+      </div>
+
+    {% for row in page.rows %}
+      {% if row.caption %}
+        <div class="col-4 project__caption rule">
+          <p>
+            {{ row.caption }}
+          </p>
+        </div>
+      {% endif %}
+      {% if row.images.size > 1 %}
+        <div class="flex col-12">
+          {% for image in row.images %}
+            <div class="project__image--flex">
+              {% if image contains '.mp4' %}
+                <video autoplay>
+                  <source src="{{ image }}" type="video/mp4">
+                </video>
+              {% else %}
+                <img src="{{ image }}"/>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% elsif row.images.size == 1 %}
+        <div class="project__image col-12">
+          {% if row.images[0] contains '.mp4' %}
+            <video width="100%" autoplay muted loop>
+              <source src="{{ row.images[0] }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          {% else %}
+            <img src="{{ row.images[0] }}"/>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+
+    {% if page.credits %}
+      <div class="project__credits col-12">
+        <h3>
+          Credits
+        </h3>
+        <p>
+          {{ page.credits | newline_to_br }}
+        </p>
+      </div>
+    {% endif %}
+
+    <h3 class="project__more col-12 rule">
+      More Projects
+    </h3>
+
+    {% assign count = 0 %}
+      {% for project in site.projects %}
+        {% if project.url == page.url %}
+          {% continue %}
+        {% else %}
+          {% if count < 3 %}
+            <div class="home__thumbnail col-4">
+              <a class="internal" href="{{ project.url }}">
+                <div class="home__thumbnail__image">
+                  <img src="{{ project.thumbnail-image }}"/>
+                </div>
+              </a>
+              <div class="home__thumbnail__info">
+                <a class="internal" href="{{ project.url }}">
+                  <h3 class="pill filled hover">
+                    {{ project.title }}
+                  </h3>
+                </a>
+                {% for category in project.categories limit:1 %}
+                  <h3 class="pill">
+                    {{ category }}
+                  </h3>
+                {% endfor %}
+              </div>
+            </div>
+            {% assign count = count | plus: 1 %}
+          {% else %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

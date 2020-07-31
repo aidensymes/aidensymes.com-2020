@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="light preload">
+    {% include header.html %}
+
+    <div class="wrapper">
+      <div class="default__content col-8">
+        {{ content | newline_to_br }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,59 @@
+// Color
+/////////////////////////////////////////////////////
+$white: #FCFCFC;
+$gray: #F2F2F2;
+$black: #1A1A1A;
+$blue: #000FFF;
+$red: #FF0000;
+
+// Pointer
+/////////////////////////////////////////////////////
+@mixin pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// Units
+/////////////////////////////////////////////////////
+$gutter: 20px;
+$gutter-half: $gutter / 2;
+$gutter-2: $gutter*2;
+$gutter-4: $gutter*4;
+$gutter-6: $gutter*6;
+
+// Breakpoints
+/////////////////////////////////////////////////////
+$breakpoints: (
+  'small': 550px,
+  'medium':  950px,
+  'large': 1440px
+) !default;
+
+@mixin break-at($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+   @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+// Transition
+/////////////////////////////////////////////////////
+@mixin transition($prop, $time, $ease) {
+  -webkit-transition: $prop $time $ease;
+  -moz-transition: $prop $time $ease;
+  -o-transition: $prop $time $ease;
+  transition: $prop $time $ease;
+}
+
+.preload {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+ }

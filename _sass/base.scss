@@ -1,0 +1,129 @@
+@import "variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+// Wrapper
+/////////////////////////////////////////////////////
+.wrapper {
+  width: 75%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: $gutter;
+  grid-row-gap : $gutter;
+  @include break-at('medium') {
+    width: 85%;
+  }
+  @include break-at('small') {
+    width: 90%;
+    grid-column-gap: $gutter-half;
+    grid-row-gap : $gutter-half;
+  }
+}
+
+// Grid
+/////////////////////////////////////////////////////
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    grid-column: span #{$i};
+  }
+}
+@for $i from 1 through 12 {
+  @for $j from 1 through 12 {
+    .col-#{$i}-#{$j} {
+      grid-column: #{$j} / span #{$i};
+    }
+  }
+}
+
+.col-1 {
+  @include break-at('small') {
+    grid-column: span 4;
+  }
+}
+
+// Color Switch
+/////////////////////////////////////////////////////
+body {
+  @include transition(all, .2s, ease);
+  &.dark {
+    background-color: $black;
+    color: $gray;
+    .pill {
+      border-color: $gray;
+      &.hover:hover {
+        background-color: $gray;
+        color: $black;
+      }
+      &.filled {
+        background-color: $gray;
+        color: $black;
+        &.hover:hover {
+          background-color: $black;
+          color: $gray;
+        }
+      }
+    }
+    .rule {
+      border-color: $gray;
+    }
+    .home__thumbnail__image {
+      background-color: $gray;
+    }
+    .header__color__picker {
+      border-color: $gray;
+      &--toggle {
+        margin-left: 20px;
+        background-color: $gray;
+      }
+    }
+  }
+  &.light {
+    background-color: $gray;
+    color: $black;
+    .pill {
+      border-color: $black;
+      &.hover:hover {
+        background-color: $black;
+        color: $gray;
+      }
+      &.filled {
+        background-color: $black;
+        color: $gray;
+        &.hover:hover {
+          background-color: $gray;
+          color: $black;
+        }
+      }
+    }
+    .rule {
+      border-color: $black;
+    }
+    .header__color__picker {
+      border-color: $black;
+      &--toggle {
+        margin-left: 0;
+        background-color: $black;
+      }
+    }
+  }
+}

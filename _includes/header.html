@@ -1,0 +1,82 @@
+{% include cookies.html %}
+
+<header>
+  <section class="wrapper">
+    <div class="col-12">
+      <a class="internal" href="/">
+        <h3 class="header__logo pill filled hover">
+          Aiden Symes
+        </h3>
+      </a>
+      <div class="header__color">
+        <div class="header__color__picker" onclick="toggleColor();">
+          <div class="header__color__picker--toggle preload"></div>
+        </div>
+      </div>
+      <a href="https://fonts.aidensymes.com/" target="_blank">
+        <h3 class="header__info__button pill hover">
+          Fonts
+        </h3>
+      </a>
+      <h3 class="header__info__button pill hover" id="open" onclick="openInfo()">
+        Info
+      </h3>
+      <h3 class="header__info__button pill hover" id="close" onclick="closeInfo()">
+        Close
+      </h3>
+    </div>
+  </section>
+
+  <section class="header__toggle">
+    <div class="header__info wrapper">
+      <div class="header__info__about header__block rule col-8">
+        <h3 class="header__info__label">
+          About
+        </h3>
+        <p>
+          {{ site.description }}
+        </p>
+      </div>
+      <div class="header__info__services header__block rule col-4">
+        <h3 class="header__info__label">
+          Services
+        </h3>
+        <div class="header__info__services__list">
+          {% for service in site.services %}
+          <p>
+            {{ service }}
+          </p>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="header__info__contact header__block rule col-4">
+        <h3 class="header__info__label">
+          Contact
+        </h3>
+        <p>
+          {{ site.contact }}
+        </p>
+      </div>
+      <div class="header__info__font header__block rule col-4">
+        <h3 class="header__info__label">
+          Font
+        </h3>
+        <p>
+          {{ site.font }}
+        </p>
+      </div>
+      <div class="header__info__social header__block rule col-4">
+        <h3 class="header__info__label">
+          Social
+        </h3>
+        {% for item in site.social %}
+          <a href="{{ item[1] }}">
+            <h3 class="pill hover">
+              {{ item[0] }}
+            </h3>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</header>

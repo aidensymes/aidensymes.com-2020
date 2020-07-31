@@ -1,0 +1,55 @@
+---
+title: Aiden Symes Staging
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: projects
+  values:
+    half: 
+    twothirds: 
+    layout: project
+    thumbnail-image: 
+    blurb: 
+    role:
+    - 
+    studio:
+      name: 
+      link: 
+    client:
+      name: 
+      link: 
+    press:
+    - name: 
+      link: 
+    credits: 
+    header-image: 
+    rows:
+    - caption: 
+      images:
+      - 
+tagline: Brooklyn Freelance Design
+description: Aiden Symes is a multi-disciplinary designer based in Brooklyn, NY. He
+  creates typography driven work for clients like The Smithsonian, Buzzfeed & The
+  Atlantic.
+contact: hello@aidensymes.com
+services:
+- Brand Identity
+- User Interface
+- Packaging
+- Environmental
+social:
+  Instagram: https://www.instagram.com/aidensymes/
+  Dribbble: https://dribbble.com/aidensymes
+  WNW: https://workingnotworking.com/aidensymes
+font: Titling Gothic by David Berlow

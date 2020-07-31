@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="light preload">
+    {% include header.html %}
+    <div class="wrapper">
+      <div class="home__header col-12">
+        <h1>
+          {{ page.header }}
+        </h1>
+      </div>
+      {% assign sorted = site.projects | sort: 'position' %}
+      {% for project in sorted %}
+        {% if project.half == true %}
+          <div class="home__thumbnail col-6">
+        {% elsif project.twothirds == true %}
+          <div class="home__thumbnail col-8">
+        {% else %}
+          <div class="home__thumbnail col-4">
+        {% endif %}
+          <a class="internal" href="{{ project.url }}">
+            <div class="home__thumbnail__image">
+              <img src="{{ project.thumbnail-image }}"/>
+            </div>
+          </a>
+          <div class="home__thumbnail__info">
+            <a class="internal" href="{{ project.url }}">
+              <h3 class="pill filled hover">
+                {{ project.title }}
+              </h3>
+            </a>
+            {% for category in project.categories limit:1 %}
+              <h3 class="pill">
+                {{ category }}
+              </h3>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
