@@ -19,7 +19,7 @@
         </h3>
       </a>
       <h3 class="header__info__button pill hover" id="open" onclick="openInfo()">
-        Info
+        Bio
       </h3>
       <h3 class="header__info__button pill hover" id="close" onclick="closeInfo()">
         Close
@@ -70,7 +70,7 @@
           Social
         </h3>
         {% for item in site.social %}
-          <a href="{{ item[1] }}">
+          <a href="{{ item[1] }}" target="_blank">
             <h3 class="pill hover">
               {{ item[0] }}
             </h3>
