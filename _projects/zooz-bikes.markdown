@@ -32,8 +32,11 @@ rows:
   - "/uploads/zooz_sans_2.jpg"
 - caption: 
   images:
-  - "/uploads/zooz_hub_1.jpg"
   - "/uploads/zooz_sans_1.jpg"
+- caption: 
+  images:
+  - "/uploads/zooz_display.jpg"
+  - "/uploads/zooz_motor.jpg"
 - caption: Druk Wide and Titling Gothic make up the rest of the system. The color
     palette draws from the urban landscape, referencing asphalt and road markings.
   images:
@@ -51,10 +54,7 @@ rows:
   - "/uploads/zooz_site_2.jpg"
 - caption: 
   images:
-  - "/uploads/zooz_social_1-485013.jpg"
-- caption: 
-  images:
-  - "/uploads/zooz_social_2.jpg"
+  - "/uploads/zooz_social_3.jpg"
 ---
 
 Zooz needed to build their brand before they launched their flagship product, The Urban Ultralight. We developed a set of visuals that felt as fun as the bikes. The system was used to launch their social channels and ecommerce, resulting in massive interest that caused Zooz to double their initial pre-order of bikes.
