@@ -30,10 +30,10 @@ rows:
     was designed to balance mechanical forms with a flowing, speedy nature.
   images:
   - "/uploads/zooz_sans_1.jpg"
-  - "/uploads/zooz_sans_2.jpg"
 - caption: 
   images:
   - "/uploads/zooz_display-fe570c.jpg"
+  - "/uploads/zooz_sans_2.jpg"
 - caption: 
   images:
   - "/uploads/zooz_motor_cropped.jpg"
