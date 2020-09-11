@@ -30,21 +30,21 @@ rows:
     was designed to balance mechanical forms with a flowing, speedy nature.
   images:
   - "/uploads/zooz_sans_1.jpg"
-- caption: 
-  images:
-  - "/uploads/zooz_display.jpg"
-  - "/uploads/zooz_motor.jpg"
-- caption: 
-  images:
   - "/uploads/zooz_sans_2.jpg"
+- caption: 
+  images:
+  - "/uploads/zooz_display-fe570c.jpg"
+- caption: 
+  images:
+  - "/uploads/zooz_motor_cropped.jpg"
 - caption: Druk Wide and Titling Gothic make up the rest of the system. The color
     palette draws from the urban landscape, referencing asphalt and road markings.
   images:
-  - "/uploads/zooz_fonts_1.jpg"
+  - "/uploads/zooz_guidelines_1.jpg"
 - caption: 
   images:
   - "/uploads/zooz_guidelines_2.jpg"
-  - "/uploads/zooz_guidelines_1.jpg"
+  - "/uploads/zooz_fonts_1.jpg"
 - caption: 
   images:
   - "/uploads/zoozSite.mp4"
