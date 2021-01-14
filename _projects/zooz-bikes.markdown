@@ -23,11 +23,11 @@ rows:
   - "/uploads/zooz_bike_2.1.jpg "
 - caption: 
   images:
-  - "/uploads/zooz_logo_8.jpg"
-  - "/uploads/zooz_logo_6.jpg"
+  - "/uploads/zooz_logo_9.jpg"
 - caption: 
   images:
-  - "/uploads/zooz_logo_9.jpg"
+  - "/uploads/zooz_logo_8.jpg"
+  - "/uploads/zooz_logo_6.jpg"
 - caption: A custom display font was developed to express the Zooz brand. Zooz Sans
     was designed to balance mechanical forms with a flowing, speedy nature.
   images:
