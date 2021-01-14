@@ -16,11 +16,11 @@ client:
 press:
 - name: Design Boom
   link: https://www.designboom.com/readers/zooz-electric-bikes-the-thrill-of-a-motorcycle-04-21-2020/
-header-image: "/uploads/zooz_bike_2.1.jpg"
+header-image: "/uploads/zooz_logo_5.jpg"
 rows:
 - caption: 
   images:
-  - "/uploads/zooz_logo_5.jpg"
+  - "/uploads/zooz_bike_2.1.jpg "
 - caption: 
   images:
   - "/uploads/zooz_logo_8.jpg"
