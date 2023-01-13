@@ -14,7 +14,7 @@
         </div>
       </div>
       <a href="https://fonts.aidensymes.com/" target="_blank">
-        <h3 class="header__info__button pill hover">
+        <h3 class="header__info__button pill hover external">
           Fonts
         </h3>
       </a>
@@ -29,7 +29,7 @@
 
   <section class="header__toggle">
     <div class="header__info wrapper">
-      <div class="header__info__about header__block rule col-8">
+      <div class="header__info__about header__block rule col-8 col-md-6 col-sm-12">
         <h3 class="header__info__label">
           About
         </h3>
@@ -37,7 +37,7 @@
           {{ site.description }}
         </p>
       </div>
-      <div class="header__info__services header__block rule col-4">
+      <div class="header__info__services header__block rule col-4 col-md-6 col-sm-12">
         <h3 class="header__info__label">
           Services
         </h3>
@@ -49,7 +49,7 @@
           {% endfor %}
         </div>
       </div>
-      <div class="header__info__contact header__block rule col-4">
+      <div class="header__info__contact header__block rule col-4 col-md-6 col-sm-12">
         <h3 class="header__info__label">
           Contact
         </h3>
@@ -57,7 +57,7 @@
           {{ site.contact }}
         </p>
       </div>
-      <div class="header__info__font header__block rule col-4">
+      <div class="header__info__font header__block rule col-4 col-md-6 col-sm-12">
         <h3 class="header__info__label">
           Font
         </h3>
@@ -65,13 +65,13 @@
           {{ site.font }}
         </p>
       </div>
-      <div class="header__info__social header__block rule col-4">
+      <div class="header__info__social header__block rule col-4 col-md-12">
         <h3 class="header__info__label">
           Social
         </h3>
         {% for item in site.social %}
           <a href="{{ item[1] }}" target="_blank">
-            <h3 class="pill hover">
+            <h3 class="pill hover external">
               {{ item[0] }}
             </h3>
           </a>

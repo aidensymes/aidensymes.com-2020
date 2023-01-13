@@ -1,10 +1,10 @@
 <footer class="wrapper">
-  <div class="footer__contact footer__block rule col-4">
+  <div class="footer__contact footer__block rule col-4 col-md-6 col-sm-12">
     <h3>
       {{ site.contact }}
     </h3>
   </div>
-  <div class="footer__copyright footer__block rule col-4">
+  <div class="footer__copyright footer__block rule col-4 col-md-6 col-sm-12">
     <h3>
       <a href="/privacy">
         Privacy Policy
@@ -14,10 +14,10 @@
       Copyright, {{ 'now' | date: "%Y" }}
     </h3>
   </div>
-  <div class="footer__social footer__block rule col-4">
+  <div class="footer__social footer__block rule col-4 col-md-12">
     {% for item in site.social %}
       <a href="{{ item[1] }}" target="_blank">
-        <h3 class="pill hover">
+        <h3 class="pill hover external">
           {{ item[0] }}
         </h3>
       </a>
