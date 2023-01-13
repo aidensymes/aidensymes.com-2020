@@ -12,19 +12,19 @@ h1 {
   font-weight: 300;
   line-height: 1;
   @include break-at("md") {
-    font-size: 50px;
+    font-size: 40px;
   }
   @include break-at("sm") {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 h2 {
   font-size: 40px;
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.2;
   @include break-at("md") {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 

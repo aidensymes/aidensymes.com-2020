@@ -83,6 +83,11 @@ header {
   }
 }
 
+.header__info__services {
+  @include break-at("md") {
+    margin-top: $margin-md;
+  }
+}
 .header__info__contact,
 .header__info__social,
 .header__info__font {
@@ -108,12 +113,12 @@ header {
 // Home
 /////////////////////////////////////////////////////
 .home__header {
-  margin: $margin-lg 0 $margin-sm 0;
+  margin: $margin-xl 0 $margin-sm 0;
   @include break-at("md") {
-    margin: $margin-lg 0 $gutter 0;
+    margin-top: $margin-lg;
   }
   @include break-at("sm") {
-    margin: $margin-md 0 0 0;
+    margin-top: $margin-md;
   }
 }
 
