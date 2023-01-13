@@ -21,7 +21,7 @@
 
 .flex {
   display: flex;
-  margin: 0 $gutter-half * -1;
+  margin: 0 calc($gutter-half * -1);
   .project__image--flex {
     padding: 0 $gutter-half;
     flex-basis: 0%;
