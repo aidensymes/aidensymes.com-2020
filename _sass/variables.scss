@@ -1,10 +1,8 @@
 // Color
 /////////////////////////////////////////////////////
-$white: #FCFCFC;
-$gray: #F2F2F2;
-$black: #1A1A1A;
-$blue: #000FFF;
-$red: #FF0000;
+$white: #fcfcfc;
+$gray: #f2f2f2;
+$black: #1a1a1a;
 
 // Pointer
 /////////////////////////////////////////////////////
@@ -14,20 +12,37 @@ $red: #FF0000;
   }
 }
 
+.external {
+  &:hover {
+    cursor: ne-resize !important;
+  }
+}
+
 // Units
 /////////////////////////////////////////////////////
-$gutter: 20px;
-$gutter-half: $gutter / 2;
-$gutter-2: $gutter*2;
-$gutter-4: $gutter*4;
-$gutter-6: $gutter*6;
+$gutter: 10px;
+$gutter-half: calc($gutter / 2);
+$gutter-quarter: calc($gutter / 4);
+
+$margin-sm: calc($gutter * 2);
+$margin-md: calc($gutter * 4);
+$margin-lg: calc($gutter * 8);
+$margin-xl: calc($gutter * 16);
+
+// Corners
+/////////////////////////////////////////////////////
+@mixin roundCorners() {
+  line-height: 0;
+  border-radius: $gutter-half;
+  overflow: hidden;
+}
 
 // Breakpoints
 /////////////////////////////////////////////////////
 $breakpoints: (
-  'small': 550px,
-  'medium':  950px,
-  'large': 1440px
+  "lg": 1440px,
+  "md": 925px,
+  "sm": 550px,
 ) !default;
 
 @mixin break-at($breakpoint) {
@@ -35,10 +50,45 @@ $breakpoints: (
     @media (max-width: map-get($breakpoints, $breakpoint)) {
       @content;
     }
-  }
-   @else {
-    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+  } @else {
+    @warn "No value could be retrieved from `#{$breakpoint}`. "
         + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+// Grid system
+////////////////////////////////////////////////////////////////////////////////
+$column-count: 12;
+
+@for $i from 1 through $column-count {
+  .col-#{$i} {
+    grid-column: span #{$i};
+  }
+}
+
+@for $i from 1 through $column-count {
+  @for $j from 1 through $column-count {
+    .col-#{$i}-#{$j} {
+      grid-column: #{$j} / span #{$i};
+    }
+  }
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include break-at($breakpoint) {
+    @for $i from 1 through $column-count {
+      @for $j from 1 through $column-count {
+        .col-#{$breakpoint}-#{$i}-#{$j} {
+          grid-column: #{$j} / span #{$i};
+        }
+      }
+    }
+
+    @for $i from 1 through $column-count {
+      .col-#{$breakpoint}-#{$i} {
+        grid-column: span #{$i};
+      }
+    }
   }
 }
 
@@ -47,6 +97,7 @@ $breakpoints: (
 @mixin transition($prop, $time, $ease) {
   -webkit-transition: $prop $time $ease;
   -moz-transition: $prop $time $ease;
+  -ms-transition: $prop $time $ease;
   -o-transition: $prop $time $ease;
   transition: $prop $time $ease;
 }
@@ -56,4 +107,5 @@ $breakpoints: (
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
- }
+  transition: none !important;
+}

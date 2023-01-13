@@ -21,50 +21,32 @@ img {
 // Wrapper
 /////////////////////////////////////////////////////
 .wrapper {
-  width: 75%;
-  max-width: 1300px;
+  width: 80%;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
   position: relative;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: $gutter;
-  grid-row-gap : $gutter;
-  @include break-at('medium') {
+  grid-row-gap: $gutter;
+  @include break-at("md") {
     width: 85%;
-  }
-  @include break-at('small') {
-    width: 90%;
     grid-column-gap: $gutter-half;
-    grid-row-gap : $gutter-half;
-  }
-}
-
-// Grid
-/////////////////////////////////////////////////////
-@for $i from 1 through 12 {
-  .col-#{$i} {
-    grid-column: span #{$i};
-  }
-}
-@for $i from 1 through 12 {
-  @for $j from 1 through 12 {
-    .col-#{$i}-#{$j} {
-      grid-column: #{$j} / span #{$i};
+    grid-row-gap: $gutter-half;
+    &__home {
+      grid-column-gap: $gutter-quarter;
     }
   }
-}
-
-.col-1 {
-  @include break-at('small') {
-    grid-column: span 4;
+  @include break-at("md") {
+    width: 90%;
   }
 }
 
 // Color Switch
 /////////////////////////////////////////////////////
 body {
-  @include transition(all, .2s, ease);
+  @include transition(all, 0.2s, ease);
   &.dark {
     background-color: $black;
     color: $gray;

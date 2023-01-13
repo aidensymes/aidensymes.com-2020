@@ -8,26 +8,23 @@
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 300;
   line-height: 1;
-  @include break-at('medium') {
-    font-size: 60px;
+  @include break-at("md") {
+    font-size: 40px;
   }
-  @include break-at('small') {
-    font-size: 45px;
+  @include break-at("sm") {
+    font-size: 30px;
   }
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 300;
-  line-height: 1;
-  @include break-at('medium') {
-    font-size: 30px;
-  }
-  @include break-at('small') {
-    font-size: 20px;
+  line-height: 1.2;
+  @include break-at("md") {
+    font-size: 25px;
   }
 }
 
@@ -36,7 +33,7 @@ h3 {
   line-height: 20px;
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 p {

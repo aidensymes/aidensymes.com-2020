@@ -4,19 +4,16 @@
   <body class="light preload">
     {% include header.html %}
     <div class="wrapper">
-      <div class="home__header col-12">
-        <h1>
-          {{ page.header }}
-        </h1>
-      </div>
       {% assign sorted = site.projects | sort: 'position' %}
       {% for project in sorted %}
-        {% if project.half == true %}
-          <div class="home__thumbnail col-6">
-        {% elsif project.twothirds == true %}
-          <div class="home__thumbnail col-8">
+        {% if project.twothirds == true %}
+          <div class="home__thumbnail col-8 col-sm-12">
+        {% elsif project.half == true %}
+          <div class="home__thumbnail col-6 col-sm-12">
+        {% elsif project.onethird == true %}
+          <div class="home__thumbnail col-4 col-sm-12">
         {% else %}
-          <div class="home__thumbnail col-4">
+          <div class="home__thumbnail col-3 col-sm-12">
         {% endif %}
           <a class="internal" href="{{ project.url }}">
             <div class="home__thumbnail__image">

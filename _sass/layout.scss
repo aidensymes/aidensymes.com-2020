@@ -4,10 +4,9 @@
 /////////////////////////////////////////////////////
 .pill {
   display: inline-block;
-  padding: 0 $gutter-half;
-  margin: 0 8px 8px 0;
+  padding: 0 $gutter;
   border: 1px solid;
-  border-radius: $gutter;
+  border-radius: 100px;
   white-space: nowrap;
 }
 
@@ -22,16 +21,16 @@
 
 .flex {
   display: flex;
-  margin: 0 $gutter-half*-1;
+  margin: 0 $gutter-half * -1;
   .project__image--flex {
     padding: 0 $gutter-half;
     flex-basis: 0%;
     flex-shrink: 1;
   }
-  @include break-at('small') {
-    margin: 0 $gutter*-.25;
+  @include break-at("sm") {
+    margin: 0 $gutter * -0.25;
     .project__image--flex {
-      padding: 0 $gutter*.25;
+      padding: 0 $gutter * 0.25;
     }
   }
 }
@@ -39,10 +38,7 @@
 // Header
 /////////////////////////////////////////////////////
 header {
-  margin-top: $gutter-2;
-  @include break-at('small') {
-    margin-top: $gutter;
-  }
+  margin: $margin-sm 0;
 }
 
 .header__logo {
@@ -52,24 +48,17 @@ header {
 .header__toggle {
   overflow: hidden;
   height: 0;
-  @include transition(height, .2s, ease-out);
-}
-
-.header__block {
-  @include break-at('small') {
-    grid-column: span 12;
-    margin-top: $gutter;
-  }
+  @include transition(height, 0.2s, ease-out);
 }
 
 .header__info__label {
-  padding-bottom: 5px;
+  padding-bottom: $gutter-half;
 }
 
 .header__info__button {
-  display: inline-block;
+  display: inline;
   float: right;
-  margin: 0  0 0 $gutter-half;
+  margin: 0 0 0 $gutter-half;
   &:hover {
     @include pointer;
   }
@@ -79,21 +68,19 @@ header {
 }
 
 .header__info {
-  margin-top: $gutter-2;
-  @include break-at('small') {
-    margin-top: $gutter;
-  }
+  margin-top: $margin-sm;
+  margin-bottom: $margin-md;
 }
 
-
-.header__info__contact, .header__info__social, .header__info__font {
-  margin-top: $gutter-2;
-}
-
-.header__info__social, .footer__social {
-  .pill {
-    margin: 0 $gutter-half $gutter-half 0;
+.header__info__services {
+  @include break-at("md") {
+    margin-top: $margin-md;
   }
+}
+.header__info__contact,
+.header__info__social,
+.header__info__font {
+  margin-top: $margin-md;
 }
 
 .header__color__picker {
@@ -108,128 +95,117 @@ header {
     width: 20px;
     border-radius: 100px;
     background-color: $gray;
-    @include transition(margin, .2s, ease);
+    @include transition(margin, 0.2s, ease);
   }
 }
 
 // Home
 /////////////////////////////////////////////////////
-.home__header {
-  margin: $gutter-6 0 $gutter-2 0;
-  @include break-at('medium') {
-    margin: $gutter-6 0 $gutter 0;
-  }
-  @include break-at('small') {
-    margin: $gutter-4 0 0 0;
-  }
-}
-
-.home__thumbnail {
-  margin-top: $gutter-half;
-  @include break-at('medium') {
-    grid-column: span 6;
-  }
-  @include break-at('small') {
-    grid-column: span 12;
-  }
-}
+// .home__header {
+//   margin-top: $margin-sm;
+//   // @include break-at("md") {
+//   //   margin-top: $margin-lg;
+//   // }
+//   // @include break-at("sm") {
+//   //   margin-top: $margin-md;
+//   // }
+// }
 
 .home__thumbnail__image {
   padding: $gutter;
-  border-radius: $gutter-half;
   background-color: $white;
-  @include transition(padding, .2s, ease-out);
+  @include roundCorners;
+  @include transition(padding, 0.2s, ease-out);
   &:hover {
     padding-top: $gutter-half;
-    padding-bottom: $gutter*1.5;
+    padding-bottom: calc($gutter * 1.5);
   }
 }
 
 .home__thumbnail__info {
-  margin-top: $gutter-half;
+  margin: $gutter 0 $gutter 0;
 }
 
 // Project
 /////////////////////////////////////////////////////
 .project__header {
-  margin-top: $gutter-2;
+  margin-top: $margin-sm;
+  @include roundCorners;
 }
 
 .project__blurb {
-  margin: $gutter-2 0;
-  @include break-at('medium') {
-    grid-column: span 6;
-  }
-  @include break-at('small') {
-    grid-column: span 12;
-    margin: $gutter-2 0 0 0;
+  margin: $margin-md 0;
+  @include break-at("sm") {
+    margin: $margin-md 0 0 0;
   }
 }
 
 .project__desc {
-  margin: $gutter-2 0;
-  @include break-at('medium') {
-    grid-column: span 6;
-  }
-  @include break-at('small') {
-    grid-column: span 12;
-    margin: 0 0 $gutter-2 0;
+  margin: $margin-md 0;
+  @include break-at("sm") {
+    margin: 0 0 $margin-md 0;
     border: none;
   }
 }
 
 .project__desc__item {
   margin-top: $gutter;
-}
-
-.project__caption {
-  margin-top: $gutter-4;
-  @include break-at('small') {
-    grid-column: span 12 !important;
-    margin-bottom: $gutter;
+  &:first-of-type {
+    margin-top: $margin-md;
   }
 }
 
-.project__image--caption {
-  @include break-at('small') {
-    grid-column: span 12;
+.project__caption {
+  margin-top: $margin-xl;
+  margin-bottom: $margin-md;
+  @include break-at("sm") {
+    margin-bottom: $margin-sm;
   }
 }
 
 .project__credits {
-  margin-top: $gutter-2;
+  margin-top: $margin-md;
 }
 
 .project__more {
-  margin-top: $gutter-2;
+  margin-top: $margin-md;
+}
+
+.project__image {
+  @include roundCorners;
+  &--flex {
+    img {
+      @include roundCorners;
+    }
+  }
 }
 
 // Footer
 /////////////////////////////////////////////////////
 footer {
-  margin-top: $gutter-6;
-  padding-bottom: $gutter-6;
+  margin-top: $margin-xl;
+  padding-bottom: $margin-xl;
+  @include break-at("md") {
+    margin-top: $margin-md;
+    padding-bottom: $margin-lg;
+  }
 }
 
 .footer__block {
-  @include break-at('small') {
-    grid-column: span 12;
-    margin-top: $gutter;
+  @include break-at("md") {
+    margin-top: $margin-sm;
   }
 }
 
 // Cookie Bar
 /////////////////////////////////////////////////////
 .default__content {
-  margin-top: $gutter-4;
+  margin-top: $margin-md;
   a {
     text-decoration: underline;
     &:hover {
       text-decoration: none;
     }
-  }
-  @include break-at('small') {
-    grid-column: span 12;
   }
 }
 
@@ -251,7 +227,7 @@ footer {
   p {
     color: $gray;
     font-size: 12px;
-    display: inline-block;
+    display: inline;
     float: left;
     margin-right: 5px;
   }
