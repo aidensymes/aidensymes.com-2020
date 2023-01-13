@@ -38,10 +38,7 @@
 // Header
 /////////////////////////////////////////////////////
 header {
-  margin-top: $margin-sm;
-  @include break-at("sm") {
-    margin-top: $gutter;
-  }
+  margin: $margin-sm 0;
 }
 
 .header__logo {
@@ -52,12 +49,6 @@ header {
   overflow: hidden;
   height: 0;
   @include transition(height, 0.2s, ease-out);
-}
-
-.header__block {
-  @include break-at("sm") {
-    margin-top: $margin-sm;
-  }
 }
 
 .header__info__label {
@@ -77,10 +68,8 @@ header {
 }
 
 .header__info {
-  margin-top: $margin-md;
-  @include break-at("sm") {
-    margin-top: $margin-sm;
-  }
+  margin-top: $margin-sm;
+  margin-bottom: $margin-md;
 }
 
 .header__info__services {
@@ -112,15 +101,15 @@ header {
 
 // Home
 /////////////////////////////////////////////////////
-.home__header {
-  margin: $margin-xl 0 $margin-sm 0;
-  @include break-at("md") {
-    margin-top: $margin-lg;
-  }
-  @include break-at("sm") {
-    margin-top: $margin-md;
-  }
-}
+// .home__header {
+//   margin-top: $margin-sm;
+//   // @include break-at("md") {
+//   //   margin-top: $margin-lg;
+//   // }
+//   // @include break-at("sm") {
+//   //   margin-top: $margin-md;
+//   // }
+// }
 
 .home__thumbnail__image {
   padding: $gutter;
@@ -196,11 +185,15 @@ header {
 footer {
   margin-top: $margin-xl;
   padding-bottom: $margin-xl;
+  @include break-at("md") {
+    margin-top: $margin-md;
+    padding-bottom: $margin-lg;
+  }
 }
 
 .footer__block {
   @include break-at("md") {
-    margin-top: $gutter;
+    margin-top: $margin-sm;
   }
 }
 

@@ -4,11 +4,6 @@
   <body class="light preload">
     {% include header.html %}
     <div class="wrapper">
-      <div class="home__header col-12">
-        <h1>
-          {{ page.header }}
-        </h1>
-      </div>
       {% assign sorted = site.projects | sort: 'position' %}
       {% for project in sorted %}
         {% if project.twothirds == true %}
