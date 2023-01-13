@@ -21,13 +21,13 @@ $black: #1a1a1a;
 // Units
 /////////////////////////////////////////////////////
 $gutter: 10px;
-$gutter-half: calc($gutter / 2);
-$gutter-quarter: calc($gutter / 4);
+$gutter-half: $gutter / 2;
+$gutter-quarter: $gutter / 4;
 
-$margin-sm: calc($gutter * 2);
-$margin-md: calc($gutter * 4);
-$margin-lg: calc($gutter * 8);
-$margin-xl: calc($gutter * 16);
+$margin-sm: $gutter * 2;
+$margin-md: $gutter * 4;
+$margin-lg: $gutter * 8;
+$margin-xl: $gutter * 16;
 
 // Corners
 /////////////////////////////////////////////////////
