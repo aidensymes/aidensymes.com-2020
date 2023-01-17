@@ -30,6 +30,9 @@ rows:
   - "/uploads/kinetiq_guidelines-f665c9.png"
 - caption: 
   images:
+  - "/uploads/kinetiq_billboard.png"
+- caption: 
+  images:
   - "/uploads/hero.jpg"
 - caption: 
   images:
