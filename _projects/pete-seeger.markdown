@@ -5,7 +5,7 @@ permalink: "/seeger"
 categories:
 - Editorial
 position: 5
-twothirds: true
+half: true
 thumbnail-image: "/uploads/00_peteSeeger_cover.png"
 blurb: A Grammy winning compilation from one of America's most influential folk singers.
 role:
