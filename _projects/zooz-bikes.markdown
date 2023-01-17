@@ -6,7 +6,7 @@ categories:
 - Branding
 position: 1
 twothirds: true
-thumbnail-image: "/uploads/zooz_bike.png"
+thumbnail-image: "/uploads/zooz_cover.png"
 blurb: Zooz is redefining ebikes with an ultralight, stylish alternative.
 role:
 - Designer
