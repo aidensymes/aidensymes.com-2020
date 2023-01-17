@@ -34,7 +34,8 @@ rows:
 - caption: 
   images:
   - "/uploads/kinetiq_billboard.png"
-- caption: 
+- caption: The packaging design is minimal and uses a color blocked system to stand
+    out on the shelf.
   images:
   - "/uploads/hero.jpg"
 - caption: 
@@ -44,7 +45,7 @@ rows:
 - caption: 
   images:
   - "/uploads/kinetiq_box_2.png"
-- caption: 
+- caption: Lifestyle photography gives a more human touch to the otherwise stark branding.
   images:
   - "/uploads/KinetiqXMate1_1512x.jpg"
   - "/uploads/KinetiqXMate8-small_e8475ccc-8b78-4679-aa34-ad9107430311.png"
@@ -55,4 +56,4 @@ rows:
   - "/uploads/KinetiqXMate13_Small_e448020e-509e-40c5-bc03-3ce1b918c61d_1512x.jpg"
 ---
 
-The nootropic market is increasingly crowded as people look for alternatives to caffeine. Unlike many competitors, Kinetiq takes a science-forward approach to their product. We wanted to highlight this with stark, minimal branding & packaging accompanied by more approachable product & lifestyle photography.
+The nootropic market is increasingly crowded as people look for alternatives to caffeine. Unlike many competitors, Kinetiq takes a science-forward approach to their product. We wanted to highlight this with highly structured branding & packaging accompanied by more approachable product & lifestyle photography.
