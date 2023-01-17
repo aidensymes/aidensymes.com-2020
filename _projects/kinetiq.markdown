@@ -27,7 +27,7 @@ rows:
   - "/uploads/kinetiq_logo_black.png"
 - caption: 
   images:
-  - "/uploads/kinetiq_guidelines-ae1ca4.png"
+  - "/uploads/kinetiq_guidelines-17d609.png"
 - caption: 
   images:
   - "/uploads/hero.jpg"
