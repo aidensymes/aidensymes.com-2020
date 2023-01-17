@@ -4,7 +4,7 @@ date: 2020-02-13 19:38:00 Z
 permalink: "/greatmarsh"
 categories:
 - Packaging
-position: 1
+position: 0
 onethird: true
 thumbnail-image: "/uploads/greatMarsh_cover-51e7bc.png"
 blurb: Great Marsh is a new craft brewery with a focus on water chemistry and an extensive
