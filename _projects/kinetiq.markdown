@@ -49,3 +49,4 @@ rows:
   - "/uploads/KinetiqXMate13_Small_e448020e-509e-40c5-bc03-3ce1b918c61d_1512x.jpg"
 ---
 
+The nootropic market is increasingly crowded as people look for alternatives to caffeine. Unlike many competitors, Kinetiq takes a science-forward approach to their product. We wanted to highlight this with stark, minimal branding & packaging accompanied by more approachable product & lifestyle photography.
