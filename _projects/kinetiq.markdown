@@ -5,6 +5,7 @@ published: false
 categories:
 - Packaging
 - Branding
+position: 0
 onethird: true
 thumbnail-image: "/uploads/kinetiq_cover.png"
 blurb: Kinetiq is a nootropic drink that improves memory, mood & focus.
