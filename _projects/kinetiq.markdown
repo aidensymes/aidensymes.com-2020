@@ -27,12 +27,10 @@ rows:
   - "/uploads/KinetiqXMate13_Small_e448020e-509e-40c5-bc03-3ce1b918c61d_1512x.jpg"
 - caption: 
   images:
-  - "/uploads/lavender-lemongrass.jpg"
-- caption: 
-  images:
   - "/uploads/hero.jpg"
 - caption: 
   images:
+  - "/uploads/lavender-lemongrass.jpg"
   - "/uploads/grapefruit-cherry.jpg"
 - caption: 
   images:
