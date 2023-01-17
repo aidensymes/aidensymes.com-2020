@@ -23,7 +23,11 @@ header-image: "/uploads/pack-of-six.jpg"
 rows:
 - caption: 
   images:
-  - "/uploads/kinetiq_guidelines-94cc55.png"
+  - "/uploads/kinetiq_logo_white.png"
+  - "/uploads/kinetiq_logo_black.png"
+- caption: 
+  images:
+  - "/uploads/kinetiq_guidelines-ae1ca4.png"
 - caption: 
   images:
   - "/uploads/hero.jpg"
