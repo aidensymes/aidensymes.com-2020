@@ -37,7 +37,7 @@ rows:
   - "/uploads/grapefruit-cherry.jpg"
 - caption: 
   images:
-  - "/uploads/kinetiq_box_1.png"
+  - "/uploads/kinetiq_box_2.png"
 - caption: 
   images:
   - "/uploads/KinetiqXMate1_1512x.jpg"
