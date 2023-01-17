@@ -23,11 +23,17 @@ header-image: "/uploads/pack-of-six.jpg"
 rows:
 - caption: 
   images:
+  - "/uploads/kinetiq_guidelines-94cc55.png"
+- caption: 
+  images:
   - "/uploads/hero.jpg"
 - caption: 
   images:
   - "/uploads/lavender-lemongrass.jpg"
   - "/uploads/grapefruit-cherry.jpg"
+- caption: 
+  images:
+  - "/uploads/kinetiq_box_1.png"
 - caption: 
   images:
   - "/uploads/KinetiqXMate1_1512x.jpg"
@@ -37,8 +43,5 @@ rows:
   images:
   - "/uploads/KinetiqXMate10small_1512x.jpg"
   - "/uploads/KinetiqXMate13_Small_e448020e-509e-40c5-bc03-3ce1b918c61d_1512x.jpg"
-- caption: 
-  images:
-  - "/uploads/kinetiq_box_1.png"
 ---
 
