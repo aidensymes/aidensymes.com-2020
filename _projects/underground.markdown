@@ -6,7 +6,7 @@ categories:
 - Branding
 position: 2
 half: true
-thumbnail-image: "/uploads/underground_cover_23.png"
+thumbnail-image: "/uploads/underground_cover_23-6de124.png"
 blurb: Underground is an abandoned underpass converted into a vibrant art park.
 role:
 - Design
