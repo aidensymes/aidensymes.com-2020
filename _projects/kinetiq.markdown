@@ -11,5 +11,13 @@ blurb: Kinetiq is a nootropic drink that improves memory, mood & focus.
 role:
 - Creative direction
 - Design
+client:
+  name: Kinetiq
+  link: https://kinetiqlife.com/
+credits: |-
+  Photography: Stevenson Michel
+  Creative direction & design: Aiden Symes
+  Additional art direction: Jackie Cole
+header-image: "/uploads/pack-of-six.jpg"
 ---
 
