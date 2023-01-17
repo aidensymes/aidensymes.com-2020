@@ -15,9 +15,10 @@ client:
   name: Kinetiq
   link: https://kinetiqlife.com/
 credits: |-
-  Photography: Stevenson Michel
+  Product photography: Stevenson Michel
+  Additional photography: Jackie Cole
+  Copy writing & brand positioning: Joe Anderton
   Creative direction & design: Aiden Symes
-  Additional art direction: Jackie Cole
 header-image: "/uploads/pack-of-six.jpg"
 rows:
 - caption: 
