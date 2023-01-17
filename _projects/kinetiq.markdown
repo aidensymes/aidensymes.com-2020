@@ -19,5 +19,15 @@ credits: |-
   Creative direction & design: Aiden Symes
   Additional art direction: Jackie Cole
 header-image: "/uploads/pack-of-six.jpg"
+rows:
+- caption: 
+  images:
+  - "/uploads/lavender-lemongrass.jpg"
+- caption: 
+  images:
+  - "/uploads/hero.jpg"
+- caption: 
+  images:
+  - "/uploads/grapefruit-cherry.jpg"
 ---
 
