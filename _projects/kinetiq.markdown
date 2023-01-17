@@ -11,6 +11,9 @@ blurb: Kinetiq is a nootropic drink that improves memory, mood & focus.
 role:
 - Creative direction
 - Design
+studio:
+  name: The Wandering
+  link: https://www.thewandering.co/
 client:
   name: Kinetiq
   link: https://kinetiqlife.com/
