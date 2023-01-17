@@ -37,5 +37,8 @@ rows:
   - "/uploads/KinetiqXMate1_1512x.jpg"
   - "/uploads/KinetiqXMate8-small_e8475ccc-8b78-4679-aa34-ad9107430311.png"
   - "/uploads/KinetiqXMate3_small_e65c43f7-6f01-4f3b-ba6d-628027f71c64_1512x.jpg"
+- caption: 
+  images:
+  - "/uploads/kinetiq_box_1.png"
 ---
 
