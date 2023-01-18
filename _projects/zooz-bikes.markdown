@@ -25,8 +25,8 @@ rows:
   images:
   - "/uploads/zooz_logo_8.jpg"
   - "/uploads/zooz_logo_6.jpg"
-- caption: A custom display font was developed to express the Zooz brand. Zooz Sans
-    was designed to balance mechanical forms with a flowing, speedy nature.
+- caption: 'We developed a custom display font: Zooz Sans. It was designed to balance
+    mechanical forms with a flowing, speedy nature.'
   images:
   - "/uploads/zooz_sans_1.jpg"
 - caption: 
@@ -41,7 +41,12 @@ rows:
   images:
   - "/uploads/zooz_guidelines_2.jpg"
   - "/uploads/zooz_fonts_1.jpg"
-- caption: The Zooz Bike
+- caption: In 2023, Zooz released the latest iteration of their flagship Ultra Urban.
+    Previous models were only available in chrome, so we worked together to develop
+    a range of striking new colors & graphics for the latest bikes.
+  images:
+  - "/uploads/zooz_bike_video_1.mp4"
+- caption: 
   images:
   - "/uploads/zooz_bike_5.png"
 - caption: 
@@ -59,7 +64,8 @@ rows:
   images:
   - "/uploads/zooz_stem.png"
   - "/uploads/zooz_numberplate.png"
-- caption: The Zooz Site
+- caption: I designed & developed the first Zooz website, which enabled them to sell
+    directly to consumers and share the unique features of the Urban Ultra.
   images:
   - "/uploads/zoozSite.mp4"
 - caption: 
