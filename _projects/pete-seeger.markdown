@@ -4,7 +4,7 @@ date: 2020-03-04 16:22:00 Z
 permalink: "/seeger"
 categories:
 - Editorial
-position: 2
+position: 3
 twothirds: true
 thumbnail-image: "/uploads/00_peteSeeger_cover.png"
 blurb: A Grammy winning compilation from one of America's most influential folk singers.
