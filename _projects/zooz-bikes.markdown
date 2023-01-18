@@ -16,11 +16,8 @@ client:
 press:
 - name: Design Boom
   link: https://www.designboom.com/readers/zooz-electric-bikes-the-thrill-of-a-motorcycle-04-21-2020/
-header-image: "/uploads/zooz_logo_5.jpg"
+header-image: "/uploads/zooz_headerImage.png"
 rows:
-- caption: 
-  images:
-  - "/uploads/zooz_bike_2.1.jpg "
 - caption: 
   images:
   - "/uploads/zooz_logo_9.jpg"
@@ -42,12 +39,27 @@ rows:
 - caption: Druk Wide and Titling Gothic make up the rest of the system. The color
     palette draws from the urban landscape, referencing asphalt and road markings.
   images:
-  - "/uploads/zooz_guidelines_1.jpg"
-- caption: 
-  images:
   - "/uploads/zooz_guidelines_2.jpg"
   - "/uploads/zooz_fonts_1.jpg"
+- caption: The Zooz Bike
+  images:
+  - "/uploads/zooz_bike_5.png"
 - caption: 
+  images:
+  - "/uploads/zooz_bike_6.png"
+  - "/uploads/zooz_bike_4.png"
+- caption: 
+  images:
+  - "/uploads/zooz_bike_7-558f8e.png"
+- caption: 
+  images:
+  - "/uploads/zooz_bike_3.png"
+  - "/uploads/zooz_bike_8.png"
+- caption: 
+  images:
+  - "/uploads/zooz_stem.png"
+  - "/uploads/zooz_numberplate.png"
+- caption: The Zooz Site
   images:
   - "/uploads/zoozSite.mp4"
 - caption: 
