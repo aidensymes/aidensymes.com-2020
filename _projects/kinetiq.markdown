@@ -35,6 +35,9 @@ rows:
 - caption: 
   images:
   - "/uploads/kinetiq_billboard.png"
+- caption: 
+  images:
+  - "/uploads/kinetiq_tote.png"
 - caption: The packaging design is minimal and uses a color blocked system to stand
     out on the shelf.
   images:
