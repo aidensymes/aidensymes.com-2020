@@ -58,12 +58,8 @@ rows:
   - "/uploads/zooz_bike_7-558f8e.png"
 - caption: 
   images:
-  - "/uploads/zooz_bike_3.png"
+  - "/uploads/zooz_bike_1.png"
   - "/uploads/zooz_bike_8.png"
-- caption: 
-  images:
-  - "/uploads/zooz_stem.png"
-  - "/uploads/zooz_numberplate.png"
 - caption: I designed & developed the first Zooz website, which enabled them to sell
     directly to consumers and share the unique features of the Urban Ultra.
   images:
