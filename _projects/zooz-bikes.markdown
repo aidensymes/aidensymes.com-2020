@@ -122,12 +122,6 @@ blocks:
   width: 
   offset: 
   spacer: true
-- image: 
-  text: I also designed & developed the first Zooz website, which enabled them to
-    sell directly to consumers and share the unique features of the Urban Ultra.
-  width: 6
-  offset: 
-  spacer: 
 - image: "/uploads/zoozSite.mp4"
   text: 
   width: 
