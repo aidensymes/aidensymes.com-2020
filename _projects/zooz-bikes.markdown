@@ -53,7 +53,7 @@ blocks:
   width: 
   offset: 
   spacer: 
-- image: "/uploads/zooz_motor_cropped.jpg"
+- image: "/uploads/zooz_motor_cropped_2.jpg"
   text: 
   width: 6
   offset: 
