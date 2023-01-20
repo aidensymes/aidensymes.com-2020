@@ -33,12 +33,12 @@ blocks:
   spacer: 
 - image: "/uploads/05_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
-  width: 6
+  width: 7
   offset: 
   spacer: 
 - image: "/uploads/08_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
-  width: 6
+  width: 5
   offset: 
   spacer: 
 - image: "/uploads/02_folkways_pete-seeger-selects_web-crop.jpg"
