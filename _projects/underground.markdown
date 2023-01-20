@@ -27,7 +27,7 @@ credits: |-
   Designers: Shuyao Bian, Anthony Pham, Aiden Symes
   Environmental Services & Artists: Cey Adams, Andrew Bablo, Steez Design, Percy Fortini-Wright, Hoxxoh, Imagine, Marka27, Vyal One, Douglas Weathersby
   Architects: Dan Adams, Marie Law Adams, Landing Studio
-header-image: "/uploads/02_underground_web.jpg"
+header-image: "/uploads/underground_cover.jpg"
 blocks:
 - image: "/uploads/07_underground_container_web.jpg"
   text: 
