@@ -12,49 +12,48 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      onethird:
-      half:
-      twothirds:
-      layout: project
-      thumbnail-image:
-      blurb:
-      role:
-        -
-      studio:
-        name:
-        link:
-      client:
-        name:
-        link:
-      press:
-        - name:
-          link:
-      credits:
-      header-image:
-      blocks:
-        - image:
-          text:
-          width:
-          offset:
-          spacer:
-      instagram:
-        -
+- scope:
+    path: ''
+    type: projects
+  values:
+    onethird: 
+    half: 
+    twothirds: 
+    layout: project
+    thumbnail-image: 
+    blurb: 
+    role:
+    - 
+    studio:
+      name: 
+      link: 
+    client:
+      name: 
+      link: 
+    press:
+    - name: 
+      link: 
+    credits: 
+    header-image: 
+    blocks:
+    - image: 
+      text: 
+      width: 
+      offset: 
+      spacer: 
+    instagram:
+    - 
 tagline: Brooklyn Freelance Design
-description:
-  Aiden Symes is a multidisciplinary designer based in Brooklyn, NY. His
+description: Aiden Symes is a multidisciplinary designer based in Brooklyn, NY. His
   output includes brand systems, fonts, websites & books. He primarily helps new brands
   define themselves, but he has also worked with larger groups like The Smithsonian,
   Nike & The Atlantic.
 contact: hello@aidensymes.com
 services:
-  - Brand Identity
-  - User Interface
-  - Packaging
-  - Frontend development
+- Brand Identity
+- User Interface
+- Packaging
+- Frontend development
 social:
   Instagram: https://www.instagram.com/aidensymes/
   Dribbble: https://dribbble.com/aidensymes
