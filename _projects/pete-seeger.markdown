@@ -51,24 +51,24 @@ blocks:
   width: 
   offset: 
   spacer: 
+- image: "/uploads/07_folkways_pete-seeger-selects_web-crop.jpg"
+  text: 
+  width: 9
+  offset: 4
+  spacer: 
+- image: "/uploads/12_folkways_pete-seeger-selects_web-crop.jpg"
+  text: 
+  width: 8
+  offset: 
+  spacer: 
 - image: "/uploads/11_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
   width: 4
   offset: 
   spacer: 
-- image: "/uploads/07_folkways_pete-seeger-selects_web-crop.jpg"
-  text: 
-  width: 8
-  offset: 
-  spacer: 
-- image: "/uploads/12_folkways_pete-seeger-selects_web-crop.jpg"
-  text: 
-  width: 6
-  offset: 
-  spacer: 
 - image: "/uploads/13_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
-  width: 6
+  width: 
   offset: 
   spacer: 
 - image: "/uploads/14_folkways_pete-seeger-selects_web-crop.jpg"
