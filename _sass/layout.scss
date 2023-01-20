@@ -163,14 +163,6 @@ header {
   }
 }
 
-.project__credits {
-  margin-top: $margin-md;
-}
-
-.project__more {
-  margin-top: $margin-md;
-}
-
 .project__image {
   @include roundCorners;
   &--flex {
@@ -178,6 +170,37 @@ header {
       @include roundCorners;
     }
   }
+}
+
+.project__text {
+  margin-bottom: $margin-md;
+}
+
+.project__spacer {
+  height: $margin-lg;
+  display: block;
+}
+
+.instagram__header {
+  margin-top: $margin-lg;
+}
+
+.instagram {
+  iframe {
+    &.instagram-media {
+      &-rendered {
+        min-width: 0px !important;
+      }
+    }
+  }
+}
+
+.project__credits {
+  margin-top: $margin-lg;
+}
+
+.project__more {
+  margin-top: $margin-lg;
 }
 
 // Footer

@@ -67,90 +67,99 @@
         {% endif %}
       </div>
 
-    {% for row in page.rows %}
-      {% if row.caption %}
-        <div class="col-8 col-md-10 col-sm-12 project__caption rule">
+      {% for block in page.blocks %}
+        {% if block.spacer %}
+          <div class="project__spacer col-12"></div>
+        {% else %}
+          <div class="{% if block.text %}project__text {% else %}project__image {% endif %}col-sm-12 col-{% if block.width %}{{ block.width }}{% else %}12{% endif %}{% if block.offset %}-{{ block.offset }}{% endif %}">
+            {% if block.text %}
+              <p>
+                {{ block.text }}
+              </p>
+            {% elsif block.image contains '.mp4' %}
+              <video width="100%" autoplay muted loop>
+                <source src="{{ block.image }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            {% else %}
+              <img src="{{ block.image }}"/>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+
+      {% if page.instagram.size > 1 %}
+          <h3 class="instagram__header col-12">
+            In the wild
+          </h3>
+          {% for post in page.instagram %}
+            {% if forloop.index == 1 %}
+              <div class="instagram col-4-1 col-md-6-1">
+            {% else %}
+              <div class="instagram col-4  col-md-6">
+            {% endif %}
+              {{ post }}
+            </div>
+          {% endfor %}
+      {% endif %}
+
+
+      {% if page.credits %}
+        <div class="project__credits col-12">
+          <h3>
+            Team
+          </h3>
           <p>
-            {{ row.caption }}
+            {{ page.credits | newline_to_br }}
           </p>
         </div>
       {% endif %}
-      {% if row.images.size > 1 %}
-        <div class="flex col-12">
-          {% for image in row.images %}
-            <div class="project__image--flex">
-              {% if image contains '.mp4' %}
-                <video autoplay>
-                  <source src="{{ image }}" type="video/mp4">
-                </video>
-              {% else %}
-                <img src="{{ image }}"/>
-              {% endif %}
-            </div>
-          {% endfor %}
-        </div>
-      {% elsif row.images.size == 1 %}
-        <div class="project__image col-12">
-          {% if row.images[0] contains '.mp4' %}
-            <video width="100%" autoplay muted loop>
-              <source src="{{ row.images[0] }}" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          {% else %}
-            <img src="{{ row.images[0] }}"/>
-          {% endif %}
-        </div>
+
+      <h3 class="project__more col-12 rule">
+        More Projects {{page.postion}}
+      </h3>
+
+      {% assign projectsToDisplay = 3 %}
+      {% assign sorted = site.projects | sort: 'position' %}
+      {% assign sortedLength = sorted.size | minus: 1 %}
+      {% assign startPosition = page.position | plus: 1 %}
+      {% assign moreProjects = sorted | slice: startPosition, sortedLength %}
+      {% if moreProjects.size < projectsToDisplay %}
+        {% assign additionalProjectCount = projectsToDisplay | minus: moreProjects.size  %}
+        {% assign additionalProjects = sorted | slice: 0, additionalProjectCount %}
+        {% assign moreProjects = moreProjects | concat: additionalProjects %}
       {% endif %}
-    {% endfor %}
-
-    {% if page.credits %}
-      <div class="project__credits col-12">
-        <h3>
-          Credits
-        </h3>
-        <p>
-          {{ page.credits | newline_to_br }}
-        </p>
-      </div>
-    {% endif %}
-
-    <h3 class="project__more col-12 rule">
-      More Projects
-    </h3>
-
-    {% assign count = 0 %}
-      {% for project in site.projects %}
-        {% if project.url == page.url %}
-          {% continue %}
-        {% else %}
-          {% if count < 3 %}
-            <div class="home__thumbnail col-4 col-md-6 col-sm-12">
-              <a class="internal" href="{{ project.url }}">
-                <div class="home__thumbnail__image">
-                  <img src="{{ project.thumbnail-image }}"/>
-                </div>
-              </a>
-              <div class="home__thumbnail__info">
-                <a class="internal" href="{{ project.url }}">
-                  <h3 class="pill filled hover">
-                    {{ project.title }}
-                  </h3>
-                </a>
-                {% for category in project.categories limit:1 %}
-                  <h3 class="pill">
-                    {{ category }}
-                  </h3>
-                {% endfor %}
+      {% assign count = 0 %}
+      {% for project in moreProjects %}
+        {% if count < projectsToDisplay %}
+          <div class="home__thumbnail col-4 col-md-6 col-sm-12">
+            <a class="internal" href="{{ project.url }}">
+              <div class="home__thumbnail__image">
+                <img src="{{ project.thumbnail-image }}"/>
               </div>
+            </a>
+            <div class="home__thumbnail__info">
+              <a class="internal" href="{{ project.url }}">
+                <h3 class="pill filled hover">
+                  {{ project.title }} {{project.postion}}
+                </h3>
+              </a>
+              {% for category in project.categories limit:1 %}
+                <h3 class="pill">
+                  {{ category }}
+                </h3>
+              {% endfor %}
             </div>
-            {% assign count = count | plus: 1 %}
-          {% else %}
-            {% break %}
-          {% endif %}
+          </div>
+          {% assign count = count | plus: 1 %}
+        {% else %}
+          {% break %}
         {% endif %}
       {% endfor %}
 
     </div>
+
     {% include footer.html %}
+
   </body>
 </html>

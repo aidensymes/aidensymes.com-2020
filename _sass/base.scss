@@ -21,8 +21,8 @@ img {
 // Wrapper
 /////////////////////////////////////////////////////
 .wrapper {
-  width: 80%;
-  max-width: 1400px;
+  width: 85%;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -31,15 +31,15 @@ img {
   grid-column-gap: $gutter;
   grid-row-gap: $gutter;
   @include break-at("md") {
-    width: 85%;
+    width: 90%;
     grid-column-gap: $gutter-half;
     grid-row-gap: $gutter-half;
     &__home {
       grid-column-gap: $gutter-quarter;
     }
   }
-  @include break-at("md") {
-    width: 90%;
+  @include break-at("sm") {
+    width: 95%;
   }
 }
 
