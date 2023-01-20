@@ -38,39 +38,40 @@ blocks:
   width: 
   offset: 
   spacer: true
-- image: 
-  text: 'We developed a custom display font: Zooz Sans. It was designed to balance
-    mechanical forms with a flowing, speedy nature.'
-  width: 4
-  offset: 
-  spacer: 
 - image: "/uploads/zooz_sans_1.jpg"
   width: 8
   offset: 
   spacer: 
+- image: 
+  text: 'We developed a custom display font: Zooz Sans. It uses a modular system to
+    structure the mechanical forms. This is balanced with an oblique slant and sharp
+    angles to give it a speedy feel.'
+  width: 4
+  offset: 
+  spacer: 
 - image: "/uploads/zooz_display-f1ccfd.jpg"
-  text: 
-  width: 7
-  offset: 
-  spacer: 
-- image: "/uploads/zooz_sans_2.jpg"
-  text: 
-  width: 5
-  offset: 
-  spacer: 
-- image: "/uploads/zooz_motor_cropped_2.jpg"
   text: 
   width: 
   offset: 
   spacer: 
-- image: "/uploads/zooz_fonts_1.jpg"
+- image: "/uploads/zooz_motor_cropped_2.jpg"
   text: 
   width: 6
   offset: 
   spacer: 
-- image: "/uploads/zooz_guidelines_2.jpg"
+- image: "/uploads/zooz_sans_2.jpg"
   text: 
   width: 6
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_fonts_1.jpg"
+  text: 
+  width: 7
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_guidelines_2.jpg"
+  text: 
+  width: 5
   offset: 
   spacer: 
 - image: 
@@ -105,25 +106,30 @@ blocks:
   width: 5
   offset: 
   spacer: 
-- image: "/uploads/zooz_bike_1.png"
-  text: 
-  width: 5
-  offset: 
-  spacer: 
-- image: "/uploads/zooz_bike_8.png"
-  text: 
-  width: 7
-  offset: 
-  spacer: 
 - image: 
-  text: The zooz logo is an ambigram, allowing it to always read right-side up on
-    spinning parts like motors & crank arms.
+  text: 
+  width: 
+  offset: 
+  spacer: true
+- image: 
+  text: Both versions of the Zooz logo are ambigrams, allowing them to read right-side-up
+    on spinning parts like motors & crank arms.
   width: 4
   offset: 
   spacer: 
 - image: "/uploads/zooz_bike_7-558f8e.png"
   text: 
   width: 8
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_bike_8.png"
+  text: 
+  width: 8
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_bike_1.png"
+  text: 
+  width: 4
   offset: 
   spacer: 
 - image: 
