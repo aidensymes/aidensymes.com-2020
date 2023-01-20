@@ -98,12 +98,12 @@ blocks:
   spacer: 
 - image: "/uploads/zooz_bike_1.png"
   text: 
-  width: 5
+  width: 4
   offset: 
   spacer: 
 - image: "/uploads/zooz_bike_8.png"
   text: 
-  width: 7
+  width: 8
   offset: 
   spacer: 
 - image: 
