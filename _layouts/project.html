@@ -71,13 +71,13 @@
         {% if block.spacer %}
           <div class="project__spacer col-12"></div>
         {% else %}
-          <div class="{% if block.text %}project__text {% else %}project__image {% endif %}col-sm-12 col-{% if block.width %}{{ block.width }}{% else %}12{% endif %}{% if block.offset %}-{{ block.offset }}{% endif %}">
+          <div class="{% if block.text %}project__text rule {% else %}project__image {% endif %}{% if block.width != 6 or block.text %}col-sm-12 {% endif %}col-{% if block.width %}{{ block.width }}{% else %}12{% endif %}{% if block.offset %}-{{ block.offset }}{% endif %}">
             {% if block.text %}
               <p>
                 {{ block.text }}
               </p>
             {% elsif block.image contains '.mp4' %}
-              <video width="100%" autoplay muted loop>
+              <video width="100%" autoplay="autoplay" loop="loop" autoplay loop muted defaultMuted playsinline>
                 <source src="{{ block.image }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -88,7 +88,8 @@
         {% endif %}
       {% endfor %}
 
-      {% if page.instagram.size > 1 %}
+      <!-- Uncomment to enable instagram posts -->
+      <!-- {% if page.instagram.size > 1 %}
           <h3 class="instagram__header col-12">
             In the wild
           </h3>
@@ -101,7 +102,7 @@
               {{ post }}
             </div>
           {% endfor %}
-      {% endif %}
+      {% endif %} -->
 
 
       {% if page.credits %}
