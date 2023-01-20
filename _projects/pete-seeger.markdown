@@ -54,7 +54,7 @@ blocks:
 - image: "/uploads/07_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
   width: 9
-  offset: 4
+  offset: 2
   spacer: 
 - image: "/uploads/11_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
