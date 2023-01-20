@@ -48,7 +48,7 @@ blocks:
   width: 4
   offset: 
   spacer: 
-- image: "/uploads/zooz_display-fe570c.jpg"
+- image: "/uploads/zooz_display-f1ccfd.jpg"
   text: 
   width: 
   offset: 
