@@ -22,7 +22,7 @@ img {
 /////////////////////////////////////////////////////
 .wrapper {
   width: 85%;
-  max-width: 1440px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -67,9 +67,6 @@ body {
     }
     .rule {
       border-color: $gray;
-    }
-    .home__thumbnail__image {
-      background-color: $gray;
     }
     .header__color__picker {
       border-color: $gray;
