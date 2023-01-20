@@ -46,8 +46,8 @@ defaults:
 tagline: Brooklyn Freelance Design
 description: Aiden Symes is a multidisciplinary designer based in Brooklyn, NY. His
   output includes brand systems, fonts, websites & books. He primarily helps new brands
-  define themselves, but he has also worked with larger groups like The Smithsonian,
-  Nike & The Atlantic.
+  define themselves, but he has also worked with larger organizations like The Smithsonian,
+  Nike, The Atlantic & Buzzfeed.
 contact: hello@aidensymes.com
 services:
 - Brand Identity
@@ -56,6 +56,6 @@ services:
 - Frontend development
 social:
   Instagram: https://www.instagram.com/aidensymes/
-  Dribbble: https://dribbble.com/aidensymes
-  WNW: https://workingnotworking.com/aidensymes
+  Fonts: https://fonts.aidensymes.com/
+  Moss: https://mossworkspace.com/
 font: Titling Gothic by David Berlow
