@@ -49,6 +49,11 @@ blocks:
   text: 
   width: 
   offset: 
+  spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
   spacer: true
 - image: 
   text: The packaging design is minimal and uses a color blocked system to stand out
