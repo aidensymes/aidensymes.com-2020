@@ -30,21 +30,6 @@ credits: "Regrets Only: Caleb Halter, Mimi Jiao & Laurel Warner  \nMoss: Nick Mi
   & Aiden Symes\nIcons: Max Guther\nAdditional photo illustrations: Zak Jensen"
 header-image: "/uploads/moss_header.png"
 blocks:
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_15_alt.jpg"
-  text: 
-  width: 
-  offset: 
-  spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_14.jpg"
-  text: 
-  width: 
-  offset: 
-  spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_13.jpg"
-  text: 
-  width: 
-  offset: 
-  spacer: 
 - image: "/uploads/210716_Composition_Row.mp4"
   text: 
   width: 
@@ -61,6 +46,71 @@ blocks:
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_08.jpg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_14.jpg"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_15_alt.jpg"
+  text: 
+  width: 8
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_13.jpg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_05.jpg"
+  text: 
+  width: 5
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_18.jpg"
+  text: 
+  width: 7
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_02.jpg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_07.jpg"
+  text: 
+  width: 8
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_30.jpeg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_28.jpeg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_29.jpeg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_27.jpeg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_26.jpeg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_25.jpeg"
   text: 
   width: 4
   offset: 
