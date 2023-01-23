@@ -38,20 +38,15 @@ blocks:
   width: 
   offset: 
   spacer: 
-- image: "/uploads/zooz_jersey-f42adc.png"
-  text: 
-  width: 8
-  offset: 
-  spacer: 
 - image: "/uploads/zooz_helmet-f0b7d5.png"
   text: 
   width: 4
   offset: 
   spacer: 
-- image: "/uploads/zooz_rear_rack.png"
+- image: "/uploads/zooz_jersey-f42adc.png"
   text: 
   width: 8
-  offset: 5
+  offset: 
   spacer: 
 - image: 
   text: 
