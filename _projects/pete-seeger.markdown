@@ -36,15 +36,15 @@ blocks:
   width: 7
   offset: 
   spacer: 
-- image: "/uploads/08_folkways_pete-seeger-selects_web-crop.jpg"
+- image: "/uploads/08_folkways_pete-seeger-selects_web-crop_2.png"
   text: 
   width: 5
   offset: 
   spacer: 
 - image: "/uploads/02_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
-  width: 10
-  offset: 3
+  width: 
+  offset: 
   spacer: 
 - image: "/uploads/06_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
@@ -53,7 +53,7 @@ blocks:
   spacer: 
 - image: "/uploads/07_folkways_pete-seeger-selects_web-crop.jpg"
   text: 
-  width: 10
+  width: 
   offset: 
   spacer: 
 - image: "/uploads/11_folkways_pete-seeger-selects_web-crop.jpg"
