@@ -146,6 +146,21 @@ blocks:
   width: 
   offset: 
   spacer: true
+- image: "/uploads/tether_221019-2.gif"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/open-in-app_221019-2.gif"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/drag-from-web_221102.gif"
+  text: 
+  width: 
+  offset: 
+  spacer: 
 - image: 
   text: 
   width: 
