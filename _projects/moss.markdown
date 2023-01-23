@@ -28,5 +28,42 @@ press:
   link: https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_moss_by_regretsonly.php
 credits: "Regrets Only: Caleb Halter, Mimi Jiao & Laurel Warner  \nMoss: Nick Miller
   & Aiden Symes\nIcons: Max Guther\nAdditional photo illustrations: Zak Jensen"
+header-image: "/uploads/moss_header.png"
+blocks:
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_15_alt.jpg"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_14.jpg"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_13.jpg"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/210716_Composition_Row.mp4"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_10.jpg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_09.jpg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_08.jpg"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
 ---
 
