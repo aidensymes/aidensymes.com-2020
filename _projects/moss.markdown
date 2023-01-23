@@ -57,12 +57,7 @@ blocks:
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_15_alt.jpg"
   text: 
-  width: 8
-  offset: 
-  spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_13.jpg"
-  text: 
-  width: 4
+  width: 
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_05.jpg"
@@ -70,34 +65,49 @@ blocks:
   width: 5
   offset: 
   spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_18.jpg"
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_13.jpg"
   text: 
   width: 7
   offset: 
   spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_18.jpg"
+  text: 
+  width: 
+  offset: 
+  spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_02.jpg"
   text: 
-  width: 4
+  width: 5
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_07.jpg"
   text: 
-  width: 8
+  width: 7
+  offset: 
+  spacer: 
+- image: "/uploads/210722_VMan_Master_SQ.mp4"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_31.jpg"
+  text: 
+  width: 6
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_30.jpeg"
   text: 
-  width: 4
+  width: 6
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_28.jpeg"
   text: 
-  width: 4
+  width: 6
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_29.jpeg"
   text: 
-  width: 4
+  width: 6
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_27.jpeg"
@@ -113,6 +123,11 @@ blocks:
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_25.jpeg"
   text: 
   width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_17.jpg"
+  text: 
+  width: 5
   offset: 
   spacer: 
 ---
