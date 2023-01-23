@@ -97,22 +97,12 @@ blocks:
   spacer: true
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_31.jpg"
   text: 
-  width: 3
+  width: 7
   offset: 
   spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_30.jpeg"
+- image: "/uploads/moss_icon_video.mp4"
   text: 
-  width: 3
-  offset: 
-  spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_28.jpeg"
-  text: 
-  width: 3
-  offset: 
-  spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_29.jpeg"
-  text: 
-  width: 3
+  width: 5
   offset: 
   spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_27.jpeg"
