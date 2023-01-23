@@ -35,7 +35,7 @@ blocks:
   width: 6
   offset: 
   spacer: 
-- image: "/uploads/kinetiq_guidelines-f665c9.png"
+- image: "/uploads/kinetiq_guidelines-721f24.png"
   text: 
   width: 
   offset: 
