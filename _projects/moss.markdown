@@ -136,6 +136,13 @@ blocks:
   width: 
   offset: 
   spacer: true
+- image: 
+  text: The first major project to use the branding was the Moss website. We were
+    able to explore the brand through an interactive lens, scattering scroll-based
+    animations throughout the site.
+  width: 6
+  offset: 
+  spacer: 
 - image: "/uploads/moss_site_homepage_compressed.mp4"
   text: 
   width: 
@@ -146,6 +153,13 @@ blocks:
   width: 
   offset: 
   spacer: true
+- image: 
+  text: The Moss app was designed alongside the brand, each influencing the other.
+    It takes a very minimal approach sprinkled with moments of joy, like Max Guther's
+    fantastic 3D icons.
+  width: 6
+  offset: 
+  spacer: 
 - image: "/uploads/tether_221019-2.gif"
   text: 
   width: 
