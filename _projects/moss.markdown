@@ -168,4 +168,4 @@ blocks:
   spacer: 
 ---
 
-I started building Moss with [Nick Miller](https://nickmiller.tv/) in 2019. We were frustrated with the way our current workflows forced us spend hours doing administrative work inside an uncreative architecture. Moss was designed as an alternative workspace for visual people. We were fortunate to work with [Regrets Only}(https://regrets-only.com/) to distill our vision into a cohesive brand and set of guiding principles.
+I started building Moss with [Nick Miller](https://nickmiller.tv/) in 2019. We were frustrated with the way our current workflows forced us spend hours doing administrative work inside an uncreative architecture. Moss was designed as an alternative workspace for visual people. We were fortunate to work with [Regrets Only](https://regrets-only.com/) to distill our vision into a cohesive brand and set of guiding principles.
