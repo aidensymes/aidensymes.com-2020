@@ -60,6 +60,16 @@ blocks:
   width: 
   offset: 
   spacer: 
+- image: "/uploads/210722_VMan_Master_SQ.mp4"
+  text: 
+  width: 6
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_07.jpg"
+  text: 
+  width: 6
+  offset: 
+  spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_15_alt.jpg"
   text: 
   width: 
@@ -78,16 +88,6 @@ blocks:
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_18.jpg"
   text: 
   width: 
-  offset: 
-  spacer: 
-- image: "/uploads/210722_VMan_Master_SQ.mp4"
-  text: 
-  width: 7
-  offset: 
-  spacer: 
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_07.jpg"
-  text: 
-  width: 5
   offset: 
   spacer: 
 - image: 
