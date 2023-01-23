@@ -8,6 +8,7 @@ categories:
 - UI/UX
 onethird: true
 thumbnail-image: "/uploads/moss_cover.png"
+blurb: 'Moss is a workspace for the '
 role:
 - Design
 - Frontend Development
@@ -128,6 +129,26 @@ blocks:
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_17.jpg"
   text: 
   width: 5
+  offset: 
+  spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
+  spacer: true
+- image: "/uploads/moss_site_homepage_compressed.mp4"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
+  spacer: true
+- image: 
+  text: 
+  width: 
   offset: 
   spacer: 
 ---
