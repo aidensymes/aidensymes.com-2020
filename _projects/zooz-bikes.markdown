@@ -51,7 +51,7 @@ blocks:
 - image: "/uploads/zooz_rear_rack.png"
   text: 
   width: 5
-  offset: 7
+  offset: 8
   spacer: 
 - image: 
   text: 
