@@ -4,7 +4,7 @@ date: 2020-02-13 19:39:00 Z
 published: false
 categories:
 - Branding
-position: 6
+position: 7
 thumbnail-image: "/uploads/wandering_phone.png"
 blurb: The Wandering is a boutique marketing agency.
 role:

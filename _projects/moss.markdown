@@ -5,6 +5,7 @@ permalink: moss
 categories:
 - Branding
 - UI/UX
+position: 0
 onethird: true
 thumbnail-image: "/uploads/moss_cover.png"
 blurb: Moss is a workflow tool as fluid as creativity itself.

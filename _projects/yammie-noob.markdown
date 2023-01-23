@@ -5,7 +5,7 @@ permalink: "/yammienoob"
 published: false
 categories:
 - Merchandise
-position: 5
+position: 6
 half: true
 thumbnail-image: "/uploads/yn_comp_cover-0bfedc.png"
 blurb: Yammie Noob is a motorcycle content creator with a growing following of nearly

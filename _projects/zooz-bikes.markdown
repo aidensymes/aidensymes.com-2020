@@ -4,7 +4,7 @@ date: 2020-02-13 19:37:00 Z
 permalink: "/zoozbikes"
 categories:
 - Branding
-position: 0
+position: 1
 twothirds: true
 thumbnail-image: "/uploads/zooz_cover.png"
 blurb: Zooz is redefining ebikes with an ultralight, stylish alternative.
