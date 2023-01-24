@@ -108,12 +108,12 @@ blocks:
   spacer: 
 - image: "/uploads/KinetiqXMate10small_1512x.jpg"
   text: 
-  width: 6
+  width: 7
   offset: 
   spacer: 
 - image: "/uploads/KinetiqXMate13_Small_e448020e-509e-40c5-bc03-3ce1b918c61d_1512x.jpg"
   text: 
-  width: 6
+  width: 5
   offset: 
   spacer: 
 ---
