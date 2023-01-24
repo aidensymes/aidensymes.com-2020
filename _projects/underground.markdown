@@ -10,7 +10,6 @@ thumbnail-image: "/uploads/underground_cover.png"
 blurb: Underground is an abandoned underpass converted into a vibrant art park.
 role:
 - Design
-- Art Direction
 studio:
   name: Visual Dialogue
   link: https://visualdialogue.com/
