@@ -141,4 +141,4 @@ blocks:
   spacer: 
 ---
 
-Zooz needed to build their brand before they launched their flagship product, The Urban Ultralight. We developed a set of visuals that felt as fun as the bikes. The system was used to launch their social channels and ecommerce, resulting in massive interest that caused Zooz to double their initial pre-order of bikes.
+Zooz needed to build their brand before they launched their flagship e-bike. We developed a set of visuals that felt as fun as the bikes. The system was used to launch their social channels and ecommerce, resulting in massive interest that caused Zooz to double their initial pre-order of bikes. We've continued to work together, developing their brand as they expand their offerings and cultivate a community of passionate riders.
