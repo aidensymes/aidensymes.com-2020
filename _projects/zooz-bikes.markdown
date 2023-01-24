@@ -36,10 +36,15 @@ blocks:
   width: 
   offset: 
   spacer: 
+- image: "/uploads/zooz_ad_1.png"
+  text: 
+  width: 7
+  offset: 
+  spacer: 
 - image: "/uploads/zooz_helmet-f0b7d5.png"
   text: 
   width: 4
-  offset: 
+  offset: 1
   spacer: 
 - image: "/uploads/zooz_jersey-f42adc.png"
   text: 
