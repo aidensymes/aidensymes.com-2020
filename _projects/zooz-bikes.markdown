@@ -131,8 +131,8 @@ blocks:
   spacer: true
 - image: "/uploads/zooz_wheelie.mp4"
   text: 
-  width: 8
-  offset: 3
+  width: 6
+  offset: 4
   spacer: 
 ---
 
