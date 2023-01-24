@@ -31,12 +31,12 @@ blocks:
   width: 6
   offset: 
   spacer: 
-- image: "/uploads/zooz_sticker.png"
+- image: "/uploads/zooz_ad_1.png"
   text: 
-  width: 
+  width: 5
   offset: 
   spacer: 
-- image: "/uploads/zooz_ad_1.png"
+- image: "/uploads/zooz_sticker.png"
   text: 
   width: 7
   offset: 
@@ -44,7 +44,7 @@ blocks:
 - image: "/uploads/zooz_helmet-f0b7d5.png"
   text: 
   width: 4
-  offset: 1
+  offset: 
   spacer: 
 - image: "/uploads/zooz_jersey-f42adc.png"
   text: 
