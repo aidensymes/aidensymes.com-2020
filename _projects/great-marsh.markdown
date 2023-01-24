@@ -10,7 +10,7 @@ thumbnail-image: "/uploads/greatMarsh_cover-51e7bc.png"
 blurb: Great Marsh is a new craft brewery with a focus on water chemistry and an extensive
   range of beers.
 role:
-- Creative Direction
+- Art Direction
 - Design
 client:
   name: Great Marsh
