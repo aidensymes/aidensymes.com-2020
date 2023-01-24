@@ -9,7 +9,7 @@ twothirds: true
 thumbnail-image: "/uploads/zooz_cover.png"
 blurb: Zooz is redefining ebikes with an ultralight, stylish alternative.
 role:
-- Creative Direction
+- Art Direction
 - Design
 client:
   name: Zooz Bikes
