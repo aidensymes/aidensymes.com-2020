@@ -91,21 +91,6 @@ blocks:
   width: 
   offset: 
   spacer: 
-- image: 
-  text: 
-  width: 
-  offset: 
-  spacer: true
-- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_31.jpg"
-  text: 
-  width: 7
-  offset: 
-  spacer: 
-- image: "/uploads/moss_icon_video.mp4"
-  text: 
-  width: 5
-  offset: 
-  spacer: 
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_27.jpeg"
   text: 
   width: 4
@@ -121,11 +106,6 @@ blocks:
   width: 4
   offset: 
   spacer: 
-- image: 
-  text: 
-  width: 
-  offset: 
-  spacer: true
 - image: "/uploads/REGRETS-ONLY_Moss_Case-Study_17.jpg"
   text: 
   width: 5
@@ -160,6 +140,21 @@ blocks:
   width: 6
   offset: 
   spacer: 
+- image: "/uploads/moss_app_newWorkspace.png"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/REGRETS-ONLY_Moss_Case-Study_31.jpg"
+  text: 
+  width: 7
+  offset: 
+  spacer: 
+- image: "/uploads/moss_icon_video.mp4"
+  text: 
+  width: 5
+  offset: 
+  spacer: 
 - image: "/uploads/tether_221019-2.gif"
   text: 
   width: 
@@ -170,16 +165,16 @@ blocks:
   width: 
   offset: 
   spacer: 
-- image: "/uploads/drag-from-web_221102.gif"
+- image: "/uploads/moss_app_download.png"
   text: 
   width: 
   offset: 
   spacer: 
-- image: 
+- image: "/uploads/drag-from-web_221102.gif"
   text: 
   width: 
   offset: 
   spacer: 
 ---
 
-I started building Moss with [Nick Miller](https://nickmiller.tv/) in 2019. We were frustrated with the way our current workflows forced us spend hours doing administrative work inside an uncreative architecture, so we was designed as an alternative for visual people. We were fortunate to work with [Regrets Only](https://regrets-only.com/) to distill our vision into a cohesive brand and set of guiding principles.
+I started building Moss with [Nick Miller](https://nickmiller.tv/) in 2019. We were frustrated with the way our current workflows forced us spend hours doing administrative work inside an uncreative architecture, so we designed Moss as an alternative for visual people. We worked with [Regrets Only](https://regrets-only.com/) to distill our vision into a cohesive brand and a set of guiding principles.
