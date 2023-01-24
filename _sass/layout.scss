@@ -164,11 +164,11 @@ header {
 }
 
 .project__image {
-  @include roundCorners;
-  &--flex {
-    img {
-      @include roundCorners;
-    }
+  img {
+    @include roundCorners;
+  }
+  video {
+    @include roundCorners;
   }
 }
 
