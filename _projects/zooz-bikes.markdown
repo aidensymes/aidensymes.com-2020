@@ -14,9 +14,6 @@ role:
 client:
   name: Zooz Bikes
   link: https://zoozbikes.com/
-press:
-- name: Design Boom
-  link: https://www.designboom.com/readers/zooz-electric-bikes-the-thrill-of-a-motorcycle-04-21-2020/
 header-image: "/uploads/zooz_headerImage.png"
 blocks:
 - image: "/uploads/zooz_logo_9.jpg"
