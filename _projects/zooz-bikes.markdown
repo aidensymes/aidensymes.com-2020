@@ -31,6 +31,11 @@ blocks:
   width: 6
   offset: 
   spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
+  spacer: true
 - image: "/uploads/zooz_chrome_badge_square.jpg"
   text: 
   width: 5
