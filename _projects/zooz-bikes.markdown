@@ -31,17 +31,27 @@ blocks:
   width: 6
   offset: 
   spacer: 
-- image: "/uploads/zooz_ad_1.png"
+- image: "/uploads/zooz_chrome_badge_square.jpg"
   text: 
   width: 5
   offset: 
   spacer: 
-- image: "/uploads/zooz_sticker.png"
+- image: "/uploads/zooz_motor_side.jpg"
   text: 
   width: 7
   offset: 
   spacer: 
-- image: "/uploads/zooz_helmet-f0b7d5.png"
+- image: "/uploads/zooz_motor_top.jpg"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_sticker.png"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/144500178_310700800403488_4774040856389834943_n.jpg"
   text: 
   width: 4
   offset: 
@@ -63,23 +73,18 @@ blocks:
   width: 4
   offset: 
   spacer: 
-- image: "/uploads/zooz_sans_1.jpg"
+- image: "/uploads/zooz_zoozSans.jpg"
   width: 8
   offset: 
   spacer: 
-- image: "/uploads/zooz_display-f1ccfd.jpg"
+- image: "/uploads/zooz_ad_1.png"
   text: 
   width: 7
   offset: 
   spacer: 
-- image: "/uploads/zooz_sans_2.jpg"
+- image: "/uploads/zooz_boxes.jpg"
   text: 
   width: 5
-  offset: 
-  spacer: 
-- image: "/uploads/zooz_motor_cropped_2.jpg"
-  text: 
-  width: 
   offset: 
   spacer: 
 - image: 
