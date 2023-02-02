@@ -87,12 +87,12 @@ blocks:
   width: 8
   offset: 
   spacer: 
-- image: "/uploads/zooz_zoozSans_sample.png"
+- image: "/uploads/zooz_zoozSans_sample_2.png"
   text: 
   width: 
   offset: 
   spacer: 
-- image: "/uploads/zooz_ad_1.png"
+- image: "/uploads/zooz_ad_2.jpg"
   text: 
   width: 7
   offset: 
