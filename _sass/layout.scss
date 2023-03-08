@@ -111,6 +111,13 @@ header {
 //   // }
 // }
 
+.home__thumbnail__inner {
+  @include sticky;
+  @include break-at("sm") {
+    position: relative;
+  }
+}
+
 .home__thumbnail__image {
   padding: $gutter;
   background-color: $white;
@@ -123,7 +130,7 @@ header {
 }
 
 .home__thumbnail__info {
-  margin: $gutter 0 $gutter 0;
+  padding: $gutter 0 $gutter 0;
 }
 
 // Project
@@ -164,11 +171,10 @@ header {
 }
 
 .project__image {
-  img {
-    @include roundCorners;
-  }
+  img,
   video {
     @include roundCorners;
+    @include sticky;
   }
 }
 

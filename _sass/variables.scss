@@ -29,12 +29,17 @@ $margin-md: $gutter * 4;
 $margin-lg: $gutter * 8;
 $margin-xl: $gutter * 16;
 
-// Corners
+// Styles
 /////////////////////////////////////////////////////
 @mixin roundCorners() {
   line-height: 0;
   border-radius: $gutter-half;
   overflow: hidden;
+}
+@mixin sticky() {
+  top: $gutter;
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
 }
 
 // Breakpoints
