@@ -41,6 +41,27 @@ blocks:
   width: 
   offset: 
   spacer: true
+- image: 
+  text: 'We developed a custom display font: Zooz Sans. It uses a modular system to
+    structure the mechanical forms. This is balanced with an oblique slant and sharp
+    angles to give it a speedy feel.'
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_zoozSans.jpg"
+  width: 8
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_zoozSans_sample_2.png"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
+  spacer: true
 - image: "/uploads/zooz_chrome_badge_square.jpg"
   text: 
   width: 5
@@ -76,23 +97,7 @@ blocks:
   width: 8
   offset: 
   spacer: 
-- image: 
-  text: 
-  width: 
-  offset: 
-  spacer: true
-- image: 
-  text: 'We developed a custom display font: Zooz Sans. It uses a modular system to
-    structure the mechanical forms. This is balanced with an oblique slant and sharp
-    angles to give it a speedy feel.'
-  width: 4
-  offset: 
-  spacer: 
-- image: "/uploads/zooz_zoozSans.jpg"
-  width: 8
-  offset: 
-  spacer: 
-- image: "/uploads/zooz_zoozSans_sample_2.png"
+- image: "/uploads/zooz_social_3.jpg"
   text: 
   width: 
   offset: 
@@ -159,12 +164,17 @@ blocks:
   width: 
   offset: 
   spacer: true
-- image: "/uploads/zooz_site_animations_features.mp4"
+- image: "/uploads/zooz_site_animation_header.mp4"
   text: 
   width: 
   offset: 
   spacer: 
 - image: "/uploads/zooz_site_product.png"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_site_animations_features.mp4"
   text: 
   width: 
   offset: 
