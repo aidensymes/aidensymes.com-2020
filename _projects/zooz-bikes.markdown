@@ -31,6 +31,11 @@ blocks:
   width: 6
   offset: 
   spacer: 
+- image: "/uploads/zooz_logoAnimation_3.mp4"
+  text: 
+  width: 
+  offset: 
+  spacer: 
 - image: 
   text: 
   width: 
@@ -147,6 +152,21 @@ blocks:
 - image: "/uploads/zooz_bike_8.png"
   text: 
   width: 8
+  offset: 
+  spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
+  spacer: true
+- image: "/uploads/zooz_site_animations_features.mp4"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_site_product.png"
+  text: 
+  width: 
   offset: 
   spacer: 
 - image: 
