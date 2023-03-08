@@ -164,7 +164,13 @@ blocks:
   width: 
   offset: 
   spacer: true
-- image: "/uploads/zooz_site_animation_header.mp4"
+- image: 
+  text: I designed & developed an e-commerce site for Zooz's launch. The response
+    exceeded our expectations, causing Zooz to double their initial preorder.
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_site_animations_header_final.mp4"
   text: 
   width: 
   offset: 
