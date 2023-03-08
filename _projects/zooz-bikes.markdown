@@ -172,7 +172,7 @@ blocks:
   spacer: 
 - image: "/uploads/zooz_site_animations_header_final.mp4"
   text: 
-  width: 
+  width: 6
   offset: 
   spacer: 
 - image: "/uploads/zooz_site_product.png"
