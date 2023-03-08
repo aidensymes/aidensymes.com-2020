@@ -46,6 +46,11 @@ blocks:
   width: 7
   offset: 
   spacer: 
+- image: "/uploads/zooz_motor_top.jpg"
+  text: 
+  width: 
+  offset: 
+  spacer: 
 - image: "/uploads/zooz_logoAnimation_3.mp4"
   text: 
   width: 
@@ -87,19 +92,14 @@ blocks:
   width: 
   offset: 
   spacer: true
-- image: "/uploads/zooz_social_3.jpg"
-  text: 
-  width: 
-  offset: 
-  spacer: 
-- image: "/uploads/zooz_motor_top.jpg"
-  text: 
-  width: 7
-  offset: 
-  spacer: 
 - image: "/uploads/209095195_281941247041102_660911683413421384_n.jpg"
   text: 
   width: 5
+  offset: 
+  spacer: 
+- image: "/uploads/zooz_social_3.jpg"
+  text: 
+  width: 
   offset: 
   spacer: 
 - image: "/uploads/144500178_310700800403488_4774040856389834943_n.jpg"
