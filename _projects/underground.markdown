@@ -74,6 +74,16 @@ blocks:
   width: 7
   offset: 
   spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
+  spacer: true
+- image: "/uploads/aidenSymes_undergound_logo.gif"
+  text: 
+  width: 10
+  offset: 2
+  spacer: 
 instagram:
 - 
 - 
