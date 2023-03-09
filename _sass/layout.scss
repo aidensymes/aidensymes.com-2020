@@ -171,6 +171,7 @@ header {
 }
 
 .project__image {
+  line-height: 0;
   img,
   video {
     @include roundCorners;
