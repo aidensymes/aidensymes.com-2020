@@ -88,8 +88,8 @@ blocks:
   offset: 
   spacer: true
 - image: 
-  text: I designed & developed an e-commerce site for Zooz's launch. The response
-    exceeded our expectations, causing Zooz to double their initial preorder.
+  text: As part of the initial launch, we built out an e-commerce site. I designed
+    & developed a Shopify theme showcasing the bike for pre-order.
   width: 6
   offset: 
   spacer: 
@@ -197,4 +197,4 @@ blocks:
   spacer: 
 ---
 
-Zooz needed to build their brand before they launched their flagship e-bike. We developed a set of visuals that felt as fun as the bikes. The system was used to launch their social channels and ecommerce, resulting in massive interest that caused Zooz to double their initial pre-order of bikes. We've continued to work together, developing their brand as they expand their offerings and cultivate a community of passionate riders.
+Zooz needed to build their brand before they launched their flagship e-bike. We developed a set of visuals that felt as fun as the bikes. The system was used to launch their social channels and e-commerce site, resulting in massive interest that caused Zooz to double their initial pre-order of bikes. We've continued to work together, developing their brand as they expand their offerings and cultivate a community of passionate riders.
