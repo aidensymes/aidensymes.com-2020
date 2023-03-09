@@ -93,7 +93,7 @@ blocks:
   width: 6
   offset: 
   spacer: 
-- image: "/uploads/zooz_site_animations_header_final.mp4"
+- image: "/uploads/zooz_site_animations_header_final_compressed.mp4"
   text: 
   width: 
   offset: 
@@ -123,7 +123,7 @@ blocks:
   width: 7
   offset: 
   spacer: 
-- image: "/uploads/zooz_social_3.jpg"
+- image: "/uploads/zooz_social_revised.png"
   text: 
   width: 
   offset: 
