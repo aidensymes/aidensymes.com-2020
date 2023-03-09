@@ -177,6 +177,24 @@ header {
     @include roundCorners;
     @include sticky;
   }
+  .device {
+    @include roundCorners;
+    @include sticky;
+    padding: $margin-lg;
+    @include break-at("md") {
+      padding: $margin-md;
+    }
+    @include break-at("sm") {
+      padding: $margin-sm;
+    }
+    img,
+    video {
+      line-height: 0;
+      border-radius: $gutter;
+      overflow: hidden;
+      @include shadow;
+    }
+  }
 }
 
 .project__text {
