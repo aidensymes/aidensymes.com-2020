@@ -137,20 +137,15 @@ blocks:
   width: 
   offset: 
   spacer: 
-- image: "/uploads/kinetiq_desktop_2.png"
+- image: "/uploads/kinetiq_desktop_prodcut.mp4"
   text: 
-  width: 9
+  width: 
   offset: 
   spacer: 
 - image: "/uploads/kinetiq_mobile_3.png"
   text: 
   width: 4
-  offset: 
-  spacer: 
-- image: "/uploads/kinetiq_mobile_5.png"
-  text: 
-  width: 4
-  offset: 
+  offset: 5
   spacer: 
 - image: "/uploads/kinetiq_site_cart_2.mp4"
   text: 
