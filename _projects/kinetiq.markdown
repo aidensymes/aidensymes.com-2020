@@ -137,17 +137,17 @@ blocks:
   width: 
   offset: 
   spacer: 
-- image: "/uploads/kinetiq_desktop_3.png"
+- image: "/uploads/kinetiq_desktop_2.png"
   text: 
   width: 9
   offset: 
   spacer: 
-- image: "/uploads/kinetiq_mobile_4.png"
+- image: "/uploads/kinetiq_mobile_3.png"
   text: 
   width: 4
-  offset: 1
+  offset: 
   spacer: 
-- image: "/uploads/kinetiq_mobile_2.png"
+- image: "/uploads/kinetiq_mobile_5.png"
   text: 
   width: 4
   offset: 
