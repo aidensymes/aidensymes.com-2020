@@ -152,7 +152,7 @@ blocks:
   width: 4
   offset: 
   spacer: 
-- image: "/uploads/kinetiq_site_cart.mp4"
+- image: "/uploads/kinetiq_site_cart_2.mp4"
   text: 
   width: 4
   offset: 
