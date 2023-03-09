@@ -116,6 +116,47 @@ blocks:
   width: 5
   offset: 
   spacer: 
+- image: 
+  text: 
+  width: 
+  offset: 
+  spacer: true
+- image: 
+  text: We created an e-commerce site for Kinetiq's direct to consumer sales. I designed
+    & developed a custom Shopify theme to showcase the benefits.
+  width: 6
+  offset: 
+  spacer: 
+- image: "/uploads/kinetiq_desktop_header.mp4"
+  text: 
+  width: 
+  offset: 
+  spacer: 
+- image: "/uploads/kinetiq_desktop_5.png"
+  text: 
+  width: 7
+  offset: 
+  spacer: 
+- image: "/uploads/kinetiq_desktop_3.png"
+  text: 
+  width: 5
+  offset: 
+  spacer: 
+- image: "/uploads/kinetiq_site_cart.mp4"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/kinetiq_mobile_4.png"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
+- image: "/uploads/kinetiq_mobile_2.png"
+  text: 
+  width: 4
+  offset: 
+  spacer: 
 ---
 
 The nootropic market is increasingly crowded as people look for alternatives to caffeine. Unlike many competitors, Kinetiq takes a science-forward approach to their product. We wanted to highlight this with highly structured branding & packaging accompanied by more approachable product & lifestyle photography.
