@@ -177,6 +177,15 @@ header {
     @include roundCorners;
     @include sticky;
   }
+  // &.col-6,
+  // &.col-8 {
+  //   .device {
+  //     img,
+  //     video {
+  //       border-radius: $gutter-half;
+  //     }
+  //   }
+  // }
   .device {
     @include roundCorners;
     @include sticky;
