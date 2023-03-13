@@ -80,7 +80,7 @@ blocks:
     width: 6
     offset:
     spacer:
-  - image: "/uploads/zooz_zoozSans_sample_2.png"
+  - image: "/uploads/zooz_zoozSans_beziers.png"
     text:
     width:
     offset:
@@ -116,6 +116,11 @@ blocks:
   - image: "/uploads/zooz_jersey-f42adc.png"
     text:
     width: 5
+    offset:
+    spacer:
+  - image: "/uploads/zooz_zoozSans_sample_2.png"
+    text:
+    width:
     offset:
     spacer:
   - image: "/uploads/zooz_social_revised.png"
